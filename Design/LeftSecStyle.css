@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: gainsboro;
+}
+.content-div{
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+   background-color: #F5B041;
+}
+.matha{
+    
+    background-color: #F5B041;
+}
+.left-sec{
+    width: 24vw;
+    background-color: #273746;
+    margin-bottom: 4px;
+}
+
+
+.profile{
+    height: 15vw;
+    background-color: #F5B041;
+}
+.img{
+    height: 22vw;
+    width: 23.2vw;
+    background-color: #F5B041;
+    border-radius: 50%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 30%;
+     margin-left: 0.8vw;
+    margin-top: -21.4vw;
+    box-shadow: 0 15px 2px -2px #1B2631;
+    z-index: -100;
+}
+.profile img{
+    height: 21vw;
+    width: 21vw;
+    border-radius: 50%;
+    margin-top: 5vw;
+    margin-left: 1.9vw;
+}
+.about{
+    margin-top: 13vw;
+    text-align: center;
+    color: white;
+}
+.about h3{
+    margin-top: -15px;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+.inner-triangle{
+    height: 2.2vw;
+    width: 13vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 2.7px;
+    clip-path: polygon(0 0, 100% 0%, 89% 100%, 0% 100%);
+}
+.outer-triangle{
+    height: 2.2vw;
+    width: 4.5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 2.7px;
+    background-color: #F5B041;
+    margin-left: -4.93vw;
+    clip-path: polygon(100% 1%, 100% 10%, 100% 100%, 40% 100%);
+}
+.inner-triangle p{
+    margin-top: 3px;
+    margin-left: 2vw;
+    font-size: 1.6vw;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.data ul li{
+    margin-left: auto;
+}
+.data ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding:5px 33px;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#icon{
+    font-size: 20px;
+    margin-right: 25px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color:#F5B041 ;
+}
+.skill-list{
+    margin-top: 30px; 
+}
+
+.skill-list ul li{
+    list-style-type: none;
+    padding-bottom: 30px;
+    color:white;
+
+}
+.skill-list #myProgress {
+    width: 60%;
+    background-color: #ddd;
+    margin-left: 6.5vw;
+  
+  }
+  
+  .skill-list  .myBar {
+    width: 10%;
+    height: 10px;
+    background-color: #F5B041;
+  }
+  .skill-list ul li p{
+      float: left;
+      margin-top: -4px;
+      margin-left: 2.2vw;
+  }
+  
